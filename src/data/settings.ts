@@ -1,0 +1,30 @@
+import type { StoreSettings } from '../types';
+
+export const defaultSettings: StoreSettings = {
+  storeName: 'Beras Kampung Kalimantan',
+  storeEmail: 'bmegamurakabi@gmail.com',
+  whatsapp: '082358402290',
+  bankName: 'BCA',
+  bankAccountNumber: '',
+  bankAccountName: 'Beras Kampung Kalimantan',
+  paypalEmail: '',
+  usdtAddress: '',
+  usdtNetwork: 'TRC20',
+  westernUnionName: '',
+  westernUnionCountry: '',
+  instagram: '',
+  facebook: '',
+  tiktok: '',
+  youtube: '',
+  shippingNote: 'Pengiriman ke seluruh Indonesia. Beras dikemas rapi menggunakan karung bersih dan tahan air.',
+  announcementText: 'Gratis ongkir untuk pembelian di atas Rp 500.000 ke seluruh wilayah Indonesia!',
+  announcementActive: true,
+  shippingOptions: [
+    { id: 'jne-reg', label: 'JNE Regular', estimatedDays: '3-5 hari', costIDR: 35000, costUSD: 3, isActive: true },
+    { id: 'jne-yes', label: 'JNE YES', estimatedDays: '1-2 hari', costIDR: 65000, costUSD: 5, isActive: true },
+    { id: 'jt-reg', label: 'J&T Regular', estimatedDays: '2-4 hari', costIDR: 32000, costUSD: 3, isActive: true },
+    { id: 'sicepat', label: 'SiCepat', estimatedDays: '2-3 hari', costIDR: 28000, costUSD: 3, isActive: true },
+    { id: 'pos-ind', label: 'Pos Indonesia', estimatedDays: '5-7 hari', costIDR: 20000, costUSD: 2, isActive: true },
+    { id: 'tiki', label: 'TIKI Regular', estimatedDays: '3-5 hari', costIDR: 30000, costUSD: 3, isActive: true },
+  ],
+};
